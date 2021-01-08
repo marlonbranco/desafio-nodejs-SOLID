@@ -16,8 +16,6 @@ interface CreateTransactionDTO {
 class TransactionsRepository {
   private transactions: Transaction[];
 
-  // private balance: Balance[];
-
   constructor() {
     this.transactions = [];
   }
